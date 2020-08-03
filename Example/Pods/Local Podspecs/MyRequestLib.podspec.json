@@ -1,0 +1,22 @@
+{
+  "name": "MyRequestLib",
+  "version": "0.1.0",
+  "summary": "A short description of MyRequestLib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/javesp/MyRequestLib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "javesp": "javierespinoza23@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/javesp/MyRequestLib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MyRequestLib/Classes/**/*"
+}

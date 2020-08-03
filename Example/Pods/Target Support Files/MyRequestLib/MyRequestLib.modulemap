@@ -1,0 +1,6 @@
+framework module MyRequestLib {
+  umbrella header "MyRequestLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

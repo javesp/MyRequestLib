@@ -1,0 +1,16 @@
+PODS:
+  - MyRequestLib (0.1.0)
+
+DEPENDENCIES:
+  - MyRequestLib (from `../`)
+
+EXTERNAL SOURCES:
+  MyRequestLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MyRequestLib: be4ad1dced88b85595863cb515895bf12a44eecb
+
+PODFILE CHECKSUM: 2cc423e440602a029c6e410cf51553bb8fb3be37
+
+COCOAPODS: 1.9.3
