@@ -27,7 +27,7 @@ public class RequestConnection: NSObject {
     var urlRequest:URLRequest?
     var apiHost:String
     
-    init(host:String) {
+    public init(host:String) {
         self.apiHost = host
     }
     
