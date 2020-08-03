@@ -31,7 +31,7 @@ library was created with education ends.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'MyRequestLib/RequestConnection.swift'
+  s.source_files = 'Development Pods/MyRequestLib/Classes/**/*'
   
   # s.resource_bundles = {
   #   'MyRequestLib' => ['MyRequestLib/Assets/*.png']
