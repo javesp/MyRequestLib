@@ -85,7 +85,6 @@
 		12FF5EB992565FF4D023427125626D8E /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				6579D67D24D7AB370001A56D /* Classes */,
 				8CDF1E0B1FC2ED76E662BB0E78EF354A /* LICENSE */,
 				A6BBD332718C3F7A4C1C7EBDEFDE99EE /* MyRequestLib.podspec */,
 				2B320118A0B7EE20A886C41B32BDF53B /* README.md */,
@@ -119,19 +118,12 @@
 		4F9054470B70C7064D563ABF67EBBEDE /* MyRequestLib */ = {
 			isa = PBXGroup;
 			children = (
+				6579D67724D78ED80001A56D /* RequestConnection.swift */,
 				12FF5EB992565FF4D023427125626D8E /* Pod */,
 				4952DE0DA5C2361BA0042FE4922BDF4A /* Support Files */,
 			);
 			name = MyRequestLib;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		6579D67D24D7AB370001A56D /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				6579D67724D78ED80001A56D /* RequestConnection.swift */,
-			);
-			name = Classes;
 			sourceTree = "<group>";
 		};
 		6986BF674042D0331492AA0429E64D24 /* Pods-MyRequestLib_Tests */ = {

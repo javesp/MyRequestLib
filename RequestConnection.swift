@@ -7,7 +7,7 @@
 
 import Foundation
 
-typealias HTTPHeaders = [String: String]
+public typealias HTTPHeaders = [String: String]
 
 public enum RequestMethod: String {
     case get = "GET"
