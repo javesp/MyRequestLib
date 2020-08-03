@@ -9,7 +9,7 @@ import Foundation
 
 typealias HTTPHeaders = [String: String]
 
-enum RequestMethod: String {
+public enum RequestMethod: String {
     case get = "GET"
     case post = "POST"
     case put = "PUT"
@@ -21,7 +21,7 @@ public enum Result<T> {
     case failure(Error)
 }
 
-class RequestConnection: NSObject {
+public class RequestConnection: NSObject {
     
     var session:URLSession = URLSession.shared
     var urlRequest:URLRequest?
@@ -31,7 +31,7 @@ class RequestConnection: NSObject {
         self.apiHost = host
     }
     
-    func Request<T:Codable>(for: T.Type = T.self,
+    public func Request<T:Codable>(for: T.Type = T.self,
                     path:String,
                     httpMethod:RequestMethod,
                     completion: @escaping (Result<T>) -> Void,
