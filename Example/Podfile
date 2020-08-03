@@ -1,0 +1,6 @@
+use_frameworks!
+target 'MyRequestLib_Tests' do
+  pod 'MyRequestLib', :path => '../'
+  
+  
+end
